@@ -11,7 +11,7 @@ func Run() {
 		if i == 1 {
 			timestr = "second"
 		}
-		fmt.Println("running for", i, timestr, "and still didn't crash")
+		fmt.Println("running for", i, timestr, "and still didn't crash,ch1")
 		time.Sleep(1 * time.Second)
 	}
 }
